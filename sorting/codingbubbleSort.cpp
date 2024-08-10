@@ -1,5 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
+
+//T.C.=O(N^2)
+//S.C=O(1)
+
+
 void BubbleSort(int arr[],int n)
 {
   int i,j;
