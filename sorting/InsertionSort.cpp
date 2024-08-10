@@ -1,6 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// Time Complexity: O(N^2)
+// Auxiliary Space: O(1)
+
 void InsertionSort(int arr[],int n)
 {
   for(int i=1;i<n;i++)
