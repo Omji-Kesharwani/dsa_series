@@ -1,5 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
+
+//Best Case: O(n log n)
+//Average Case: O(n log n)
+//Worst Case: O(n log n)
+
 void merge(vector<int>& arr,int left,int mid,int right)
 {
 int n1=mid-left+1;

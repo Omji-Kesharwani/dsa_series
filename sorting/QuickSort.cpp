@@ -1,5 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
+
+//Best Case : Ω (N log (N))
+//Average Case: θ ( N log (N))
+//Worst Case: O(N ^ 2)
+
 int partition(vector<int>& arr,int low,int high)
 {
   int pivot=arr[high];
