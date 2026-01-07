@@ -151,7 +151,7 @@ public:
 
 
 
-    return prefix[m-1];
+    return prefix[m-1]; // returns the number of ways in which we can reach top row 
 
 
 
